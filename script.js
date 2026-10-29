@@ -2,12 +2,6 @@ const profile = document.getElementById("profile");
 
 profile.src = config.profileImage;
 
-document.getElementById("waBtn").href =
-    config.whatsappLink;
-
-document.getElementById("tgBtn").href =
-    config.telegramLink;
-
 let index = 0;
 
 function changeBackground() {
